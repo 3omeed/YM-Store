@@ -1,0 +1,160 @@
+:root {
+    --main-color: #19a2ae;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+body {
+    /* background-image: url(./photo/digital-mobile-smartphone-technology-background-with-circuit-diagram_1017-21004.webp); */
+    background-image: url(./photo/martin-engel-44zXCbDd2WQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(./photo/—Pngtree—simple\ blue\ yellow\ abstract\ background_1174638.png);
+    }
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0 , 60%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+main .box {
+    width: 320px;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: -4px 6px 25px -8px;
+}
+
+@media (max-width: 425px) {
+    main .box {
+        width: 250px;
+    }
+}
+
+main .box .background {
+    background: url();
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    border-radius:20px 20px 0 0;
+}
+
+.box .logo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box .logo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 5px rgb(237, 237, 50) solid;
+}
+
+.box .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+p {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.box .username h2{
+    padding: 10px;
+    font-size: 20px;
+    /* position: relative; */
+}
+
+
+
+.box .links {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: flex-start;
+    gap: 35px;
+    justify-content: center;
+
+}
+
+.box .links i {
+    width: 35px;
+    font-size: 30px;
+    color: black;
+    transition: 0.3s ease-out;
+
+}
+
+a {
+    transition: 0.3s ease-out;
+
+}
+
+.box .links a:first-child:hover i{
+    color: #e12a75;
+    transform:  translateY(-5px);
+}
+.box .links a:nth-child(2):hover i{
+    transform:  translateY(-5px);
+    color: blue;
+}
+.box .links a:nth-child(3):hover i{
+    transform:  translateY(-5px);
+    color: #24cc63;
+}
+
+
+
+
+/* 
+
+.links::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(84, 84, 84);
+    position: absolute;
+    top: -5px;
+    left: 0;
+    
+} */
