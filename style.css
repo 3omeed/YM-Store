@@ -11,7 +11,7 @@
 
 body {
     /* background-image: url(./photo/digital-mobile-smartphone-technology-background-with-circuit-diagram_1017-21004.webp); */
-    background-image: url(./photo/martin-engel-44zXCbDd2WQ-unsplash.jpg);
+    background-image: url(photo/martin-engel-44zXCbDd2WQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -20,7 +20,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background-image: url(./photo/—Pngtree—simple\ blue\ yellow\ abstract\ background_1174638.png);
+        background-image: url(photo/—Pngtree—simple\ blue\ yellow\ abstract\ background_1174638.png);
     }
 }
 
